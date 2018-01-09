@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+}
+.section-1{
+  display: flex;
+  justify-content: center;
+  background-color: #a9d5de;
+  height: 500px;
+}
+
+.section-1>.header{
+  width: 920px;
+  margin: 40px;
+  color: #3a494c;
+}
+
+.header>.brand{
+  font-size: 34px;
+}
