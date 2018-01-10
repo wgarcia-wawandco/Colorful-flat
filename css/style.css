@@ -44,7 +44,7 @@
 .section-3{
   flex-direction: column;
   background-color: #9bd4a7;
-  height: 1000px;
+  height: 1024px;
 }
 
 .header{
@@ -136,6 +136,9 @@
 .col-6{
   width: 60%;
 }
+.wrapped{
+  flex-wrap: wrap;
+}
 .centered{
   text-align: center;
   justify-content: center;
@@ -204,9 +207,10 @@ font-family: helvetica-l;
   list-style: none;
   padding: 12px 15px;
   border-radius: 8px;
-  font-family: Helvetica-r;
+  font-family: Helvetica-l;
   color: white;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .menu-2>li:hover{
   border: 2px solid white;
@@ -215,10 +219,22 @@ font-family: helvetica-l;
 
 .menu-2>li.activ{
   border: 2px solid white;
-  padding: 10px 12px;
+  padding: 10px 13px;
 }
 
-.menu-2>li.selected{
+.button{
+  font-family: Helvetica-r;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 23px 23px !important;
+}
+
+.button, .menu-2>li.selected{
+  padding: 12px 12px;
   background-color: white;
   color: #ababab;
+}
+
+.gallery>img{
+  margin: 30px 0;
 }
