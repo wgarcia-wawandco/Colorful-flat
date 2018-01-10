@@ -142,7 +142,6 @@
 .centered{
   text-align: center;
   justify-content: center;
-  align-items: center;
 }
 .vertical{
   flex-direction: column !important;
