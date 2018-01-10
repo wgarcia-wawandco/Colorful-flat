@@ -1,19 +1,139 @@
+@font-face {
+    font-family: helvetica-r;
+    src: url(../fonts/helv/HelveticaNeue.ttf);
+}
+
+@font-face {
+    font-family: helvetica-m;
+    src: url(../fonts/helv/HelveticaNeue-Medium.ttf);
+}
+@font-face {
+  font-family: kreon-b;
+  src: url(../fonts/kreon/Kreon Bold.ttf);
+}
+
 *{
   margin: 0;
+  font-family: helvetica-r;
 }
+
 .section-1{
   display: flex;
-  justify-content: center;
-  background-color: #a9d5de;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a1cdd6;
   height: 500px;
 }
 
-.section-1>.header{
-  width: 920px;
-  margin: 40px;
+.header{
+  justify-content: space-between !important;
+  margin: 40px 0;
   color: #3a494c;
 }
 
-.header>.brand{
+.brand{
+  display: flex;
+  width: 25%;
+  align-items: center;
   font-size: 34px;
+  font-family: goudy;
+}
+.brand>i{
+  flex-grow: 2;
+}
+
+.header>.menu-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 550px;
+}
+
+.menu-1>li{
+  list-style: none;
+  padding: 10px 14px;
+  border-radius: 7px;
+  font-family: Helvetica-m;
+}
+
+.menu-1>li:hover, .active{
+  background-color: #3a494c;
+  color: #a7d3dc;
+}
+
+.content{
+  width: 946px;
+  display: flex;
+  align-items: center;
+}
+
+.margin-3{
+  margin: 30px 0;
+}
+
+.jump-text{
+  font-family: kreon-b;
+  font-size: 45px;
+  margin-bottom: 15px;
+  letter-spacing: 4px;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+.pagination-1>a{
+  width: 25px;
+  height: 25px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.pagination-1>a:hover, .pagination-1>.active{
+  background-color: white;
+}
+.col-1{
+  width: 10%;
+}
+
+.col-4{
+  width: 40%;
+}
+.col-45{
+  width: 45%;
+}
+.col-5{
+  width: 50%;
+}
+.col-6{
+  width: 60%;
+}
+
+.centered{
+  text-align: center;
+  justify-content: center;
+}
+
+.centered-around{
+  justify-content: space-around;
+}
+.centered-between{
+  justify-content: space-between;
+}
+
+.white{
+  color: white;
+}
+
+h4{
+  font-size: 18pt !important;
+}
+
+h5{
+  font-size: 14pt !important;
+}
+
+h6{
+  font-size: 12pt !important;
 }
