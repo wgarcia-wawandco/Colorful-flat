@@ -64,6 +64,11 @@ li, a, .button{
   flex-direction: column;
   height: 760px;
 }
+
+.section-7{
+  background-color: #3c3c3c;
+  justify-content: center;
+}
 .header{
   justify-content: space-between !important;
   margin: 40px 0;
@@ -121,9 +126,11 @@ li, a, .button{
 .margin-6{
   margin: 60px 0;
 }
-
 .section-4>.content>div{
   margin-top: 70px;
+}
+.section-7 .title{
+  color:#d1cfd0 !important;
 }
 .jump-text{
   font-family: whitin;
@@ -270,13 +277,14 @@ font-family: helvetica-l;
   padding: 10px 13px;
 }
 .button{
+  font-size: 14px;
+  border: none;
   font-family: Helvetica-r;
   text-transform: uppercase;
   border-radius: 8px;
   padding: 23px 23px !important;
 }
 .button, .menu-2>li.selected{
-  padding: 12px 12px;
   background-color: white;
   color: #ababab;
 }
@@ -294,6 +302,7 @@ font-family: helvetica-l;
 }
 .description{
   justify-content: space-between;
+  align-items: flex-start;
 }
 .title-2{
   font-size: 16pt;
@@ -306,12 +315,10 @@ font-family: helvetica-l;
 }
 
 .bg-green{
-  width: 17%;
   background-color: #9ad3a6 !important;
   color: white !important;
 }
 .bg-blue{
-  width: 17%;
   background-color: #a4d3db !important;
   color: white !important;
 }
@@ -319,6 +326,15 @@ font-family: helvetica-l;
   background-color: white !important;
   color: #b3d3de !important;
 }
+.bg-white-2{
+  background-color: white !important;
+  color: #3c3c3c !important;
+}
+.bg-gray{
+  background-color: #e9e9e9 !important;
+  color: white !important;
+}
+
 .separator{
   border-bottom: 1px solid black;
   opacity: .1;
@@ -331,7 +347,6 @@ font-family: helvetica-l;
 .card{
   display: flex;
   flex-direction: column;
-  align-items: center;
   align-content: stretch;
   background-color: white;
 }
@@ -340,6 +355,14 @@ font-family: helvetica-l;
 }
 .card-width-2{
   width: 285px;
+}
+
+.card-image{
+  font-size: 60px;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card-content{
   padding-top: 15px;
@@ -364,6 +387,10 @@ font-family: helvetica-l;
 .card-width-2 .card-content{
   padding: 20px 20px 10px 20px;
 }
+
+.card-width-2 .card-image{
+  height: 144px;
+}
 .card-width-2  .card-title{
   font-family: helvetica-b;
   font-size: 22px;
@@ -379,3 +406,30 @@ font-family: helvetica-l;
   margin-top: 20px;
   padding: 0;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form .button{
+  font-family: helvetica-b;
+}
+
+.form > input, textarea{
+  font-family: helvetica-r;
+  font-size: 20px;
+  width: 100%;
+  padding: 18px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #a4a4a4;
+}
+
+
+<div class="item-3">
+  Bloom web design Copyright c 2013 | Powered By Wordpress
+</div>
