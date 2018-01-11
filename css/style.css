@@ -15,8 +15,8 @@
     src: url(../fonts/helv/HelveticaNeue-Light.ttf);
 }
 @font-face {
-  font-family: kebron-b;
-  src: url("../fonts/kreon/Kreon Bold.ttf");
+  font-family: whitin;
+  src: url("../fonts/whitin/Whitin-CondensedBlack.otf");
 }
 
 *{
@@ -73,14 +73,16 @@ li, a, .button{
   display: flex;
   width: 25%;
   align-items: center;
+  justify-content: space-around;
   font-size: 34px;
-  font-family: "Times New Roman";
+  font-family: whitin;
 }
 .brand>i{
   flex-grow: 2;
 }
 .brand>h4{
-  font-family: "Times New Roman";
+  font-family: whitin;
+  letter-spacing: 2px;
 }
 
 .header>.menu-1{
@@ -124,8 +126,8 @@ li, a, .button{
   margin-top: 70px;
 }
 .jump-text{
-  font-family: "Times New Roman";
-  font-size: 45px;
+  font-family: whitin;
+  font-size: 50px;
   margin-bottom: 15px;
   letter-spacing: 4px;
 }
@@ -195,9 +197,10 @@ li, a, .button{
   color: white;
 }
 .title{
-  font-family: "Times New Roman";
+  font-family: whitin;
   font-size: 36pt !important;
   margin-bottom: 5px;
+  letter-spacing: 3px;
 }
 h4{
   font-size: 18pt !important;
@@ -316,12 +319,10 @@ font-family: helvetica-l;
   background-color: white !important;
   color: #b3d3de !important;
 }
-
 .separator{
   border-bottom: 1px solid black;
   opacity: .1;
 }
-
 .section-header{
   display: flex;
   flex-direction: column;
@@ -344,7 +345,7 @@ font-family: helvetica-l;
   padding-top: 15px;
 }
 .card-title{
-  font-family: "Times New Roman";
+  font-family: whitin;
   font-weight: bold;
   font-size: 28px;
 }
@@ -353,7 +354,6 @@ font-family: helvetica-l;
   font-size: 16px;
   margin: 10px 0;
 }
-
 .card-explain{
   color: #6a6a6a;
   font-size: 16px;
@@ -361,8 +361,6 @@ font-family: helvetica-l;
   margin-bottom: 20px;
   padding: 0px 15px;
 }
-
-
 .card-width-2 .card-content{
   padding: 20px 20px 10px 20px;
 }
@@ -370,7 +368,6 @@ font-family: helvetica-l;
   font-family: helvetica-b;
   font-size: 22px;
 }
-
 .card-width-2 .card-subtitle{
   font-style: italic;
   color: #898989;
