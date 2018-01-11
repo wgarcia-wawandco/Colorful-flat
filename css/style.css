@@ -132,6 +132,11 @@ li, a, .button{
 .section-7 .title{
   color:#d1cfd0 !important;
 }
+.section-7>.content>.separator{
+  margin-top: 25px;
+  width: 100%;
+  border: 1px solid black;
+}
 .jump-text{
   font-family: whitin;
   font-size: 50px;
@@ -429,7 +434,9 @@ font-family: helvetica-l;
   color: #a4a4a4;
 }
 
-
-<div class="item-3">
-  Bloom web design Copyright c 2013 | Powered By Wordpress
-</div>
+.section-7 p{
+  color: #8f8f8f;
+}
+.section-7 p span{
+  color: #ceaf6c;
+}
